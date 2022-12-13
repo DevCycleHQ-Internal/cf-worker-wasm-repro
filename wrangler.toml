@@ -1,0 +1,6 @@
+name = "cf-wasm-repro"
+main = "src/index.ts"
+compatibility_date = "2022-12-13"
+
+[wasm_modules]
+BUCKETING_WASM = "node_modules/@devcycle/bucketing-assembly-script/build/bucketing-lib.worker.wasm"
